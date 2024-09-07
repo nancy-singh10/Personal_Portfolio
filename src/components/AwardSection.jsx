@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { POS } from "../constants";
+import { Award } from "../constants";
 
-const Positionresp = () => {
+const AwardSection = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
       <motion.h1
@@ -11,10 +11,10 @@ const Positionresp = () => {
         transition={{ duration: 0.5 }}
         className='my-20 text-center text-4xl'
       >
-        Position of Responsibility
+        Awards
       </motion.h1>
       <div>
-        {POS.map((position, index) => (
+        {Award.map((award, index) => (
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
@@ -24,8 +24,8 @@ const Positionresp = () => {
           >
             <div className='w-full lg:w-1/4'>
               <motion.img
-                src={position.image}
-                alt={position.title}
+                src={award.image}
+                alt={award.title}
                 width={150}
                 height={150}
                 className='mb-6 rounded'
@@ -41,7 +41,7 @@ const Positionresp = () => {
                 transition={{ duration: 0.5 }}
                 className='mb-2 font-semibold'
               >
-                {position.title}
+                {award.title}
               </motion.h6>
               <motion.p
                 whileInView={{ opacity: 1, x: 0 }}
@@ -49,9 +49,9 @@ const Positionresp = () => {
                 transition={{ duration: 0.5 }}
                 className='mb-4 text-neutral-400'
               >
-                {position.description}
+                {award.description}
               </motion.p>
-              {position.technologies.map((tech, index) => (
+              {award.technologies.map((tech, index) => (
                 <span
                   key={index}
                   className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'
@@ -67,4 +67,4 @@ const Positionresp = () => {
   );
 };
 
-export default Positionresp;
+export default AwardSection;

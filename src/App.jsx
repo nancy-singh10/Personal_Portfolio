@@ -7,7 +7,8 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Language from "./components/Language";
 import Contact from "./components/Contact";
-
+import Positionresp from "./components/Positionresp";
+import AwardSection from "./components/AwardSection";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900 min-h-screen relative">
@@ -25,6 +26,9 @@ const App = () => {
         <Language/>
         <Experience/>
         <Projects/>
+        
+        <Positionresp/>
+        <AwardSection/>
         <Contact/>
       </div>
     </div>
