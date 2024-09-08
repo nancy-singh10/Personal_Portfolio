@@ -5,6 +5,8 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/macs.png";
 import project6 from "../assets/projects/auv.png";
 import dellas from "../assets/projects/dellas.jpg";
+import ai from "../assets/projects/ai.png";
+import cult from "../assets/projects/cult.png";
 export const HERO_CONTENT = `Hi, I'm Nancy Singh, a dedicated Information Technology student at Delhi Technological University. My IT journey is fueled by a strong interest in technology and a drive for innovation.
 
 I thrive on collaboration and enjoy connecting with others to learn and grow. My goal is to continuously evolve as a tech professional and make a meaningful impact in the ever-changing tech landscape. Welcome to my portfolio—explore my projects, achievements, and the passion that drives my tech journey.`;
@@ -50,14 +52,14 @@ export const PROJECTS = [
   },
   {
     title: "AI Assistant",
-    image: project4,
+    image: ai,
     description:
       "Created an AI application in Python using speech-to-text modules and Requests, enabling voice command functionality and seamless API interactions, improving task efficiency by 35%.",
     technologies: ["Python", "API", "Web Scraping"],
   },
   {
     title: "Cultfit Fitness App MVP",
-    image: project4,
+    image:cult,
     description:
       "Engineered a fitness app for teenagers using Thunkable, integrating workout plans, activity tracking, nutrition tips, and social interaction, resulting in a 30% increase in user engagement within the first month.",
     technologies: ["Thunkable", "Block Coding"],
