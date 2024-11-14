@@ -11,7 +11,7 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 - **Position of Responsibility**: Insights into leadership roles and responsibilities I've taken on.
 - **Awards**: Highlighting any awards or recognitions I’ve received for my work and contributions.
 
-## Technologies Used
+## Technologies Used..
 
 - **React**: For building the user interface.
 - **Vite**: For fast development and build processes.
