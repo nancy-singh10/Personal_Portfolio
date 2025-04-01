@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This project showcases my skills, experience, and the various projects I've worked on. It's built using React and Vite for fast and efficient development, and incorporates motion animations to enhance the user experience.
 
-## Features
+## Features--
 
 - **Introduction**: Get to know me with a brief introduction that highlights my background and passions.
 - **About Me**: Learn more about my journey, skills, and what drives me.
